@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="[ screen ] [ padding-24 ]">
+    <div class="[ nft-card ] [ padding-24 gap-16 ]">
+      <div class="[ nft-card__header ]">
+        <a href="https://ethereum.org/en/" class="[ nft-card__image-wrapper ]">
+          <img
+            alt=""
+            src="./images/image-equilibrium.jpg"
+            width="278"
+            height="278"
+          >
+
+          <div>
+
+          </div>
+        </a>
+        <h1 class="[ text-heading fc-white clr-transition-out ]">
+          <a href="https://ethereum.org/en/">Equilibrium #3429</a>
+        </h1>
+
+        <p class="[ text-body fc-soft-blue ]">Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+
+      <div class="[ nft-card__info ] [ row-centered ] [ text-caption wrap-items ]">
+        <span class="fw-700 fc-cyan row-centered">0.041 <abbr title="Ether">ETH</abbr></span>
+        <span class="fc-soft-blue row-centered">3 days left</span>
+      </div>
+
+      <hr class="[ separator ]">
+
+      <div class="[ nft-card__author ] [ row-centered ] [ text-caption fc-soft-blue gap-16 wrap-items]">
+        <!-- alt="Face shoot of Jules Wyvern while taking sun" -->
+        <img
+          src="./images/image-avatar.png"
+          width="33"
+          height="33"
+        >
+        <span>Creation of <a href="#" class="[ fc-white clr-transition-out ]">Jules Wyvern</a></span>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
