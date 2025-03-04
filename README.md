@@ -53,8 +53,8 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/welpmoz/news-homepage).
-- Live Site URL: [Live site](https://rococo-starship-d7b6bb.netlify.app/)
+- Solution URL: [GitHub repository](https://github.com/welpmoz/nft-preview-card-component).
+- Live Site URL: [Live site](https://welpmoz.github.io/nft-preview-card-component/)
 
 ## My process
 
